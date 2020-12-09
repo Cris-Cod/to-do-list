@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "monserrat-regular";
+    src: url('font/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "monserrat-ligth";
+    src: url('font/Montserrat-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1EFEF;
+}
+
+.topp {
+    width: 100%;
+    height: 220px;
+    background-color: #F9DC59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topp h2 {
+    margin-top: 10px;
+    font-family: "monserrat-regular";
+}
+
+.form-text {
+    margin-top: 25px;
+}
+
+.form-text textarea {
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 3 4 2px rgba(255, 255, 255, 1);
+    outline: none;
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    font-family: "monserrat-regular";
+}
+
+.icon {
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+a {
+    margin: 10px auto;
+}
+
+.fa-plus-circle {
+    font-size: 45px;
+    color: #000000;
+    transition: all 100ms ease;
+    text-align: center;
+}
+
+.fa-plus-circle:active {
+    font-size: 44px;
+    color: #F9DC59;
+}
+
+.fecha {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.dias {
+    width: 130px;
+    height: 60px;
+    display: flex;
+}
+
+.dia {
+    font-size: 50px;
+    font-family: "monserrat-regular";
+}
+
+.meses {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mes span {
+    font-size: 20px;
+    font-family: "monserrat-ligth";
+}
+
+.year span {
+    font-size: 18px;
+    font-family: "monserrat-ligth";
+}
+
+.name-day span {
+    font-size: 20px;
+    font-family: "monserrat-regular";
+}
+
+.resultado {
+    width: 93%;
+    height: auto;
+    background-color: #F8F8F8;
+}
+
+.resultado {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.resultado div {
+    width: 80%;
+    height: 15px;
+    margin: 10px 10px;
+    padding: 15px 10px;
+    font-family: "monserrat-regular";
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 2px solid #F9DC59;
+}
+
+.borrarTarea {
+    width: 10%;
+    color: red;
+    font-family: "monserrat-regular";
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.borrarTarea:active {
+    font-size: 18px;
+}
